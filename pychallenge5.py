@@ -19,5 +19,5 @@ with open('banner.p', 'rb') as f:
 for row in mysterydata:
     for line in row:
         print(line[1]*line[0], end="")
-    print('\n')
+    print('\n', end="")
 # -> spells out "channel" in ascii art -> channel.html
